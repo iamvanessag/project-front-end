@@ -47,11 +47,15 @@
         }
         .menu
         {
-            text-align: center;
             margin: auto;
             padding-top: 40px;
+            margin-left: 1px;
         }
         .espace 
+        {
+            padding-left: 100px;
+        }
+        .pesq
         {
             padding-left: 100px;
         }
