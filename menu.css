@@ -2,6 +2,7 @@
         {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         .container
         {
@@ -11,13 +12,13 @@
 
             display: grid;
             grid-template-areas: 
-            'header header header'
-            'nav nav nav'
-            'main main main'
-            'aside aside aside'
-            'footer footer footer';
-            grid-template-columns: 200px auto 200px;
-            grid-template-rows: 70px auto 100px;
+            'header'
+            'nav'
+            'main'
+            'aside'
+            'footer';
+            grid-template-columns: auto;
+            grid-template-rows: 70px auto auto 100px 100px;
         }
         header
         {
@@ -34,7 +35,8 @@
         main 
         {
             grid-area: main;
-            background-color: rgb(231, 221, 240);
+            background-color: rgb(239, 236, 243);
+            text-align: center;
         }
         aside 
         {
@@ -44,7 +46,7 @@
         footer 
         {
             grid-area: footer;
-            background-color: green;
+            background-color: brown;
         }
         .menu
         {
