@@ -23,6 +23,7 @@
         {
             grid-area: header;
             background-color: brown;
+            
         }
         nav 
         {
@@ -49,7 +50,7 @@
         {
             margin: auto;
             padding-top: 40px;
-            margin-left: 1px;
+        
         }
         .espace 
         {
