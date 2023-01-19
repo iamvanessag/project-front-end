@@ -7,8 +7,8 @@
 .container
 {
     background-color: rgb(185, 177, 177);
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
 
     display: grid;
     grid-template-areas: 
@@ -18,7 +18,7 @@
     'aside'
     'footer';
     grid-template-columns: auto;
-    grid-template-rows: 70px auto auto 100px 100px;
+    grid-template-rows: 70px auto auto 100px;
 }
 header
 {
@@ -51,8 +51,11 @@ footer
     }
 .menu
 {
-    margin: auto;
-    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
         
 }
 .espace 
@@ -65,5 +68,9 @@ footer
 }
 .ser
 {
-    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
 }
