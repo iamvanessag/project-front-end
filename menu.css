@@ -15,10 +15,9 @@
             'header'
             'nav'
             'main'
-            'aside'
             'footer';
             grid-template-columns: auto;
-            grid-template-rows: 70px auto auto 100px 100px;
+            grid-template-rows: 70px auto auto 100px;
         }
         header
         {
@@ -31,6 +30,7 @@
             grid-area: nav;
             background-color: rgb(239, 236, 243);
             text-align: center;
+            padding: 200px;
         }
         main 
         {
@@ -61,4 +61,24 @@
         .pesq
         {
             padding-left: 100px;
+        }
+        .ser
+        {
+            padding-left: 200px;
+        }
+        .cur
+        {
+            padding-left: 400px;
+        }
+        .a.b.c
+        {
+            padding: 100px;
+        }
+        .b
+        {
+            padding: 100px;
+        }
+        .c
+        {
+            padding: 100px;
         }
