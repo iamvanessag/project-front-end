@@ -12,12 +12,11 @@
 
             display: grid;
             grid-template-areas: 
-            'header'
-            'nav'
-            'main'
-            'footer';
+            'header header'
+            'nav main'
+            'footer footer';
             grid-template-columns: auto;
-            grid-template-rows: 70px auto auto 100px;
+            grid-template-rows: 70px auto 100px;
         }
         header
         {
@@ -30,7 +29,6 @@
             grid-area: nav;
             background-color: rgb(239, 236, 243);
             text-align: center;
-            padding: 200px;
         }
         main 
         {
@@ -42,6 +40,9 @@
         {
             grid-area: footer;
             background-color: brown;
+            text-align: center;
+            padding-top: 70px;
+            color: white
         }
         .menu
         {

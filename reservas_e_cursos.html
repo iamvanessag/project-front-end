@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Reservas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link type="text/css" rel="stylesheet" href="reservas_e_cursos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <div><a href="menu.html">INÍCIO</a></div>
+                <div><a href="reservas_e_cursos.html">RESERVAS E CURSOS</a></div>
+                <div>LOGIN</div>
+                <div><input type="text" id="txtBusca"/></div>
+            </div>
+        </header>
+        <nav><br>
+        <br><h1>Reservas</h1>
+        <div class="ser">
+            <div><img src="imagens/makeup-artist-animate.svg" width= "200px" height="200px"><h1>Maquiagem</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/Manicurist-pana.svg" width= "200px" height="200px"><h1>Banho de Gel</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/facial-massage-animate.svg" width= "200px" height="200px"><h1>Limpeza de Pele</h1><p>Descrição do curso</p></div>
+        </div>
+        <div class="ser">
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+        </div><br>
+        <br><h1>Cursos</h1>
+        <div class="ser">
+            <div><img src="imagens/manicurist-animate.svg" width= "200px" height="200px"><h1>Desing de Unhas</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/instagram-video-streaming-animate.svg" width= "200px" height="200px"><h1>Automaquiagem</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/eyes-animate.svg" width= "200px" height="200px"><h1>Desing de Sobrancelhas</h1><p>Descrição do curso</p></div>
+        </div>
+        <div class="ser">
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+            <div><img src="imagens/14057g (1).jpg" width= "200px" height="200px"><h1>Serviço4</h1><p>Descrição do curso</p></div>
+        </div>
+        </nav>
+        <main>
+            <div>
+                <div><h1>Filtros</h1></div>
+            </div>
+            <div>
+                <form action="destino.php" method="post"></form>
+                <p>
+                    <label for="nome">Palavra-chave:</label><br/>
+                    <input type="text" name="palavrachave" id="nome" required/>
+                </p>
+                <p>
+                    Área:<br/>
+                    <input type="checkbox" name="areas" id="op1" value="Opção 1"/>
+                <label for="op1">Opção 1</label><br/>
+
+                <input type="checkbox" name="areas" id="op2" value="Opção 2"/>
+                <label for="op2">Opção 2</label><br/>
+
+                <input type="checkbox" name="areas" id="op3" value="Opção 3"/>
+                <label for="op3">Opção 3</label><br/>
+                </p>
+                <p>
+                    Público:<br/>
+                    <input type="checkbox" name="areas" id="op1" value="Opção 1"/>
+                    <label for="op1">Opção 1</label><br/>
+    
+                    <input type="checkbox" name="areas" id="op2" value="Opção 2"/>
+                    <label for="op2">Opção 2</label><br/>
+    
+                    <input type="checkbox" name="areas" id="op3" value="Opção 3"/>
+                    <label for="op3">Opção 3</label><br/>
+                </p>
+                <p>
+                    <input type="submit" value="Filtrar"/>
+                </p>
+
+            </div>
+        </main>
+        <footer>
+            <p>Copyright Beauty & Cursos - 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
