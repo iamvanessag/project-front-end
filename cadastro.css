@@ -11,7 +11,6 @@
             background-color: rgb(185, 177, 177);
             width: auto;
             height: auto;
-
             display: grid;
             grid-template-areas: 
             'header'
@@ -28,11 +27,12 @@
         }
         nav 
         {
-            width: 80%;
-            height: 80%;
             display: flex;
             grid-area: nav;
             background-color: rgb(239, 236, 243);
+            width: auto;
+            height: auto;
+            justify-content: center;
         }
         .menu
         {
@@ -51,11 +51,22 @@
             padding-top: 70px;
             color: white
         }
-        .form-image
+        .form-img
         {
-            width: 50%;
+            
+        }
+        .form header
+        {
+            text-align:justify;
+        }
+        .form
+        {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 1rem;
+            padding: 161px;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .input
+        {
+            text-align: justify;
         }
