@@ -58,14 +58,6 @@
             color: rgb(239, 236, 243);
         
         }
-        .espace 
-        {
-            padding-left: 100px;
-        }
-        .pesq
-        {
-            padding-left: 100px;
-        }
         .ser
         {
             display: flex;
@@ -73,23 +65,6 @@
             justify-content: space-around;
             align-items: center;
             height: 300px;
-        }
-        .cur
-        {
-            padding-left: 400px;
-            display: flex;
-        }
-        .a.b.c
-        {
-            padding: 100px;
-        }
-        .b
-        {
-            padding: 100px;
-        }
-        .c
-        {
-            padding: 100px;
         }
         .box
         {
